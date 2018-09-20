@@ -6,7 +6,7 @@
              x:Class="XamarinFormsCustomPicker.MainPage" 
              Title="My Page Title">
     <StackLayout VerticalOptions="Center">
-        <renderers:CustomPicker DoneButtonText="Kabul" CancelButtonText="Reddet" />
-        <renderers:CustomPicker DoneButtonText="Evet" CancelButtonText="Hayır"/>
+        <renderers:CustomPicker DoneButtonText="My Custom Done Text" CancelButtonText="My Custom Cancel Text" />
+        <renderers:CustomPicker DoneButtonText="My Other Custom Done Text" CancelButtonText="My Other Custom Cancel Text"/>
     </StackLayout>
 </ContentPage>
